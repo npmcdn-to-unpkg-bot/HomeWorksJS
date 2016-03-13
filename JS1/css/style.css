@@ -1,0 +1,18 @@
+﻿body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+form{
+    width: 400px;
+    background-color: #808080;
+    text-align: center;
+    padding: 70px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
