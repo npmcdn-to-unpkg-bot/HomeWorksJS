@@ -1,0 +1,42 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: gray;
+}
+
+li{
+    list-style: none;
+}
+
+.testBox{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+    width: 500px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 1px black;
+    margin-top: 50px;
+}
+
+.testBox h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testBox >ul>li{
+    list-style: decimal;
+    margin-top: 5px;
+}
+
+.testBox input[type=button]{
+    padding: 5px 10px 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+}
