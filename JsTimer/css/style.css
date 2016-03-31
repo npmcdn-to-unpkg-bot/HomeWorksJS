@@ -1,0 +1,36 @@
+﻿body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.orange{
+    padding: 100px;
+    border-radius: 20px;
+    background-color: orangered;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.orange p{
+    font-size: 80px;
+    color: white;
+}
+
+.orange button{
+    padding: 5px;
+    margin: 10px;
+    min-width: 100px;
+    font-size: 20px;
+}
+
+.orange div{
+    max-height: 200px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.orange div>p{
+    font-size: 30px;
+}
