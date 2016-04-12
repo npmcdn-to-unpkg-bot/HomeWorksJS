@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #F6F7F9;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.checkBoxGroup p{
+    line-height: 20px;
+    margin: 0px;
+}
+
+.checkBoxGroup{
+    margin-top: 10px;
+}
+
+.box {
+  margin-bottom: 24px;
+  padding: 24px 30px; 
+  display: inline-block;
+  font-size: 18px;
+}
+
+.box p{
+    font-size: 15px;
+}
+
+.box label{
+    color: #90a1b5;
+    font-size: 15px;
+    margin: 0 2px 4px;
+    text-transform: uppercase;
+    float: left;
+}
+
+.options{
+    text-align: center;
+    background-color: #F6F7F9;
+}
+
+.wrapper{
+    background-color: #E1E2E4;
+    padding: 40px;
+}
