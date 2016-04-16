@@ -1,0 +1,65 @@
+﻿.carousel-hider {
+    width: 600px;
+    overflow: hidden;
+    float: left;
+}
+ 
+.carousel-list {    
+    list-style: none;
+    width: 10000px;
+    background-color: yellow;
+}
+ 
+.carousel-element {
+    display: block;
+    float: left;
+}
+
+.carousel-element div{
+    background-image: url(../img/auto/1.jpg);
+    width: 600px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #808080;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+ 
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+}
+
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+    display: block;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    padding: 5px;
+    margin-top: 50px;
+}
+ 
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+ 
+.carousel-arrow-left {
+    margin-right: 25px;
+}
+ 
+.carousel-arrow-right {
+    margin-left: 25px;
+}
+
+.carousel-box{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-box::after{
+    content: "";
+    clear: both;
+    display: table;
+}
