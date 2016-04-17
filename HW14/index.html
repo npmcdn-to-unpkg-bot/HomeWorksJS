@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Test on JS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/template.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <!--<div class="content">
+        <div class="modal-overlay">
+            
+        </div>
+        <div class="madal-dialog">
+            <h2>Сообщение!</h2>
+        </div>
+        
+    </div>-->
+    <div id="testBox">
+    </div>
+    <script type="text/html" id="template">
+        <div class="testBox">
+            <h1><%= Name %></h1>
+            <ul>
+                <% for(var i=0; i< Questions.length; i++){ %>
+                <li>
+                    <%= Questions[i].Question %>
+                    <ul>
+                        <% for(var z=0; z< Questions[i].Unswers.length; z++){ %>
+                        <li><input type="radio" name="group<%=i%>" id="unswer<%= i%>-<%= z %>"><label for="unswer<%= i %>-<%= z %>"><%= Questions[i].Unswers[z] %></label></li>
+                        <% } %>
+                    </ul>
+                </li>
+                <% } %>
+            </ul>
+            <input type="button" value="Проверить мои результаты" id="result">
+        </div>
+    </script>    
+</body>
+</html>
