@@ -1,0 +1,40 @@
+﻿body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    padding: 20px;
+    background-color: #7dbcdc;
+    text-align: center;
+    color: white;
+}
+
+header input{
+    margin-right: 10px;
+}
+
+.usersContainer{
+    padding: 50px;
+    text-align: center;
+}
+
+.userBox{
+    border: 1px solid #3292fa;
+    border-radius: 10px;
+    display: inline-block;
+    padding:20px 20px 0px 20px;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.userBox img{
+    border-radius: 64px;
+}
+
+.userBox p{
+    color: #3292fa;
+    text-transform: uppercase;
+}
