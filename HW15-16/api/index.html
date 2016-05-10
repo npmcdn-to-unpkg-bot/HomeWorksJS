@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>API</title>
+    <link rel="stylesheet" href="css/style.css"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/template.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <form>
+            <span>Count users</span>
+            <input id="results" type="number" min="1" max="100" />
+            <span>Gender</span>
+            <select id="gender">
+                <option selected value="Anybody">Anybody</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <button id="showUsers">Show</button>
+        </form>
+    </header>
+    <div class="usersContainer">
+        <h1>RANDOM USERS</h1>
+    </div>
+    <script type="text/html" id="userTpl">
+        <div class="userBox">
+            <img src="<%= picture.large %>" />
+            <p><%= name.first %> <%= name.last %></p>
+        </div>
+    </script>
+</body>
+</html>
