@@ -1,0 +1,73 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: gray;
+    min-height: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+.testBox{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+    width: 500px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 1px black;
+    margin-top: 50px;
+}
+
+.testBox h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testBox >ul>li{
+    list-style: decimal;
+    margin-top: 5px;
+}
+
+.testBox input[type=button]{
+    padding: 5px 10px 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+}
+
+.modal-overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+    background: rgba(0,0,0,0.8);
+}
+
+.content{
+    position: relative;
+}
+
+.madal-dialog{
+    width: 30%;
+    top: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 8px 32px -5px rgba(0,0,0,0.75);
+    border: 2px solid #36b8fa;
+}
