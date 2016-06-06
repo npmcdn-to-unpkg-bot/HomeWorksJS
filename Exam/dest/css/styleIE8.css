@@ -1,0 +1,16 @@
+﻿header, nav, section, article, aside, footer {
+   display:block;
+}
+
+.jcarousel-wrapper{
+    margin-right: 10px;
+}
+
+.grid-item{
+    overflow: hidden;
+    margin: 4px 4px;
+}
+
+.ideasSerch INPUT{
+    height: 40px;
+}
